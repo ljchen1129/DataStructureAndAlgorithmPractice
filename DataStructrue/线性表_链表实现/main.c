@@ -149,7 +149,7 @@ List * Delete(int i, List *PtrL)
 int main(int argc, const char * argv[]) {
 
     // 1. 创建表
-    List *L;
+    List *L = NULL;
     
     // 2. 插入元素
     printf("开始插入元素\n");
